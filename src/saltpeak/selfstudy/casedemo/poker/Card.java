@@ -33,6 +33,7 @@ public class Card {
     }
 
     public String cardInfo(){
-        return SUITS[suit] + RANKS[rank];
+        return SUITS[suit]+RANKS[rank];
+        //return SUITS[suit]+“-”+RANKS[rank];//为什么报错？
     }
 }
