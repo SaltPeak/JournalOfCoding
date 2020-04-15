@@ -1,14 +1,14 @@
 package saltpeak.selfstudy.basicsyntax;
-
+import javax.swing.JOptionPane;
 /**
  * @author BigHit from SaltPeak
  * @category The "saltpeak.selfstudy.basicsyntax" Package of "Journal Of Coding" Project
  * @github SaltPeak
- * @domain Print an Message "Hello World" on Console - The First Code for Every Programmer.
- * @created 2020/4/13 21:30
+ * @domain
+ * @created 2020/4/15 12:19
  */
-public class Welcome {
+public class MessageDialog {
     public static void main(String[] args){
-        System.out.println("Hello World");
+        JOptionPane.showMessageDialog(null,"Hello World","Tip",JOptionPane.INFORMATION_MESSAGE);
     }
 }
